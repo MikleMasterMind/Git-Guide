@@ -1,6 +1,7 @@
 # Git guide
 ---
-## Usual commands 
+## Usual commands  
+
 `c` - change directory  
 `ls` - list directory  
 `~` - user's main directory  
@@ -15,7 +16,8 @@
 `rmdir` - remove directory  
 `rm -r` - remove not empty directory and all files in it  
 ----
-## You may also rope yor repository with github
+## You may also rope yor repository with github  
+
 `git init` - initialize repository  
 `rm -rf .git` - undo previous action  
 `git status` - see status of working repository  
@@ -30,5 +32,17 @@
 `git push -u origin master` - load local repository first time  
 `git push` - load local repository
 ----
-## Markdown guide  
+## Markdown guide 
+ 
 [click here](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#links)
+----
+## Git Log  
+
+Function return Hash of commit, it's author, data and comment  
+Hash is a unique code of commit  
+Head is a file keeping hash of latest commit  
+----
+## Status  
+
+file have status: `untracked`, `tracked`, `staged` and `modified`  
+`tracked` = `staged` || `modified` = `~untracked`  
