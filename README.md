@@ -30,7 +30,12 @@
 `git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git` - add remote repository  
 `git remote -v` - check if remote and local repository are roped  
 `git push -u origin master` - load local repository first time  
-`git push` - load local repository
+`git push` - load local repository  
+`git commit --amend --no-edit` - add new file in last commit (add files before)  
+`git commit --amend -m` - change comment of last commit  
+`git restore --staged <file>` - remove <file> from staged area  
+`git reset --hard <commit A hash>` - delete all commits after A  
+`git restore <file>` - undo changes with `modified` files  
 ----
 ## Markdown guide 
  
