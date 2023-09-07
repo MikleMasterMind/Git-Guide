@@ -36,8 +36,12 @@
 `git restore --staged <file>` - remove <file> from staged area  
 `git reset --hard <commit A hash>` - delete all commits after A  
 `git restore <file>` - undo changes with `modified` files  
+<<<<<<< HEAD
 `git clone <ssh of repository>` - load repository from github  
 `git branch` - show branchs in repository  
+`git branch <name of branch>` - make new branch  
+=======
+>>>>>>> 5bef594b7255b8cd48c34192b67381a97b07bba2
 ----
 ## Markdown guide 
  
