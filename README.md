@@ -36,7 +36,6 @@
 `git restore --staged <file>` - remove <file> from staged area  
 `git reset --hard <commit A hash>` - delete all commits after A  
 `git restore <file>` - undo changes with `modified` files  
-<<<<<<< HEAD
 `git clone <ssh of repository>` - load repository from github  
 `git branch` - show branchs in repository  
 `git branch <name of branch>` - make new branch  
@@ -44,8 +43,9 @@
 `git checkout -b <name of branch>` - make new brench and swich on it  
 `git diff <branch 1> <branch 2>` - show difference between branches  
 `git diff <{branch, HEAD}~N> <{branch, HEAD}~N>` - show difference between commits in branches (N=0 -> last commit)  
-=======
->>>>>>> 5bef594b7255b8cd48c34192b67381a97b07bba2
+`git merge <name of branch1>` - working branch merges branch  
+`git branch -d <branch>` - delete branch if its merged  
+`git branch -D <branch>` - delete branch anyway  
 ----
 ## Markdown guide 
  
