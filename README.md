@@ -42,7 +42,9 @@
 `git branch <name of branch>` - make new branch  
 `git checkout <name of branch>` - swich branch  
 `git checkout -b <name of branch>` - make new brench and swich on it  
-= ======
+`git diff <branch 1> <branch 2>` - show difference between branches  
+`git diff <{branch, HEAD}~N> <{branch, HEAD}~N>` - show difference between commits in branches (N=0 -> last commit)  
+=======
 >>>>>>> 5bef594b7255b8cd48c34192b67381a97b07bba2
 ----
 ## Markdown guide 
