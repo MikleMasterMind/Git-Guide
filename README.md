@@ -44,6 +44,7 @@
 `git diff <branch 1> <branch 2>` - show difference between branches  
 `git diff <{branch, HEAD}~N> <{branch, HEAD}~N>` - show difference between commits in branches (N=0 -> last commit)  
 `git merge <name of branch1>` - working branch merges branch  
+`git merge <branch> --no-ff` - merge without fast-forward  
 `git branch -d <branch>` - delete branch if its merged  
 `git branch -D <branch>` - delete branch anyway  
 `git pull` - load changes in master branch from github   
