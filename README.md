@@ -46,6 +46,7 @@
 `git merge <name of branch1>` - working branch merges branch  
 `git branch -d <branch>` - delete branch if its merged  
 `git branch -D <branch>` - delete branch anyway  
+`git pull` - load changes in master branch from github   
 ----
 ## Markdown guide 
  
